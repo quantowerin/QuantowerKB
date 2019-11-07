@@ -8,21 +8,21 @@ Most of the indicators require history for their calculation only from the main 
 
 The start point for receiving history is symbol object and method **GetHistory**. The most simple way is to specify the required Period, history type and date range:
 
-```
+```text
 // Download 15 min bars for august 2018
 IHistoricalData historicalData = Symbol.GetHistory(Period.MIN15, HistoryType.Bid, new DateTime(2018, 8, 1, 0, 0, 0, DateTimeKind.Utc), new DateTime(2018, 8, 31, 0, 0, 0, DateTimeKind.Utc));
 ```
 
 If you specify exactly left and right border — you will receive the required history for this range. But if you want download history from some time in the past till now and receive real-time data, you can skip right border parameter definition:
 
-```
+```text
 // Download 15 min bars for last day with real time data
 IHistoricalData historicalData = Symbol.GetHistory(Period.MIN15, HistoryType.Bid, DateTime.UtcNow.AddDays(-1));
 ```
 
 The main object that represents history is **IHistoricalData** interface. It contains a collection of bars or ticks and main information about downloaded history: symbol, history type, a total count of items, period, etc. You can access particular item from the collection and receive **IHistoryItem** object, which provides you information about bar or tick: prices, time, volume and other. We use different classes for bars, ticks and lasts history presentation, so to get access to full data you need to convert your object to appropriate class:
 
-```
+```text
 // Downloading bars history
 IHistoricalData historicalData = Symbol.GetHistory(Period.MIN15, HistoryType.Bid, DateTime.UtcNow.AddDays(-1));
 
@@ -35,7 +35,7 @@ DateTime leftBorderOfBar = ((HistoryItemBar)historicalData[0]).TimeLeft;
 
 In case of tick history:
 
-```
+```text
 // Downloading ticks history
 IHistoricalData historicalData = Symbol.GetHistory(Period.TICK1, HistoryType.Bid, DateTime.UtcNow.AddDays(-1));
 
@@ -44,13 +44,13 @@ double bidPrice = ((HistoryItemTick)historicalData[0]).Bid;
 double askPrice = ((HistoryItemTick)historicalData[0]).Ask;
 ```
 
-If you need to download history from a current symbol of indicator, you can use its property Symbol. If you need history from another symbol, that should be specified in settings - you can use **InputParameter** attribute and our article describing this. 
+If you need to download history from a current symbol of indicator, you can use its property Symbol. If you need history from another symbol, that should be specified in settings - you can use **InputParameter** attribute and our article describing this.
 
-It is a time to create some practical example using knowledge from the current topic. Let's assume we need an indicator that downloads 5min,15 min and 30 min history for the main symbol and for an additional one, that can be specified by the user. Then calculates simple moving average on this history and displays results on the chart. 
+It is a time to create some practical example using knowledge from the current topic. Let's assume we need an indicator that downloads 5min,15 min and 30 min history for the main symbol and for an additional one, that can be specified by the user. Then calculates simple moving average on this history and displays results on the chart.
 
 At first, we need to specify variables for required indicators and Symbol variable and mark it with **InputParameter**:
 
-```
+```text
 /// <summary>
 /// SMA indicators for different timeframes and symbols
 /// </summary>
@@ -67,7 +67,7 @@ Symbol AdditionalSymbol;
 
 In **OnInit** of the indicator method we will download all required history and add indicators:
 
-```
+```text
 protected override void OnInit()
 {   
     // Download history for current symbol for different timeframes and apply SMA indicator
@@ -83,7 +83,7 @@ protected override void OnInit()
     // 30 min
     IHistoricalData data30MinCurrent = this.Symbol.GetHistory(Period.MIN30, HistoryType.Bid, DateTime.UtcNow.AddDays(-1));            
     data30MinCurrent.AddIndicator(sma30MinMainCurrent = Core.Indicators.BuiltIn.SMA(10, PriceType.Close));
-            
+
     // Download history for additional symbol (if specified) for different timeframes and apply SMA indicator
 
     if (AdditionalSymbol != null)
@@ -105,7 +105,7 @@ protected override void OnInit()
 
 In **OnPaint** method we simply display result using GDI+:
 
-```
+```text
 public override void OnPaintChart(PaintChartEventArgs args)
 {
     Graphics gr = Graphics.FromHdc(args.Hdc);

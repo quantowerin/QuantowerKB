@@ -1,4 +1,2 @@
 # Market heat map
 
-
-

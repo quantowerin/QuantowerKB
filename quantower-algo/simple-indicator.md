@@ -30,7 +30,7 @@ A minimum required source code will be generated automatically and contains the 
 
 It is time to go deep into the code. In a **constructor** method, you can specify name of the indicator, short name for displaying on the charts and whether you indicator require a separate window on the chart. The most important here is specifying the amount of lines and their default style: Solid/Dot/Histogram, color, and width. In our example, we need only one line, but you can add any amount:
 
-```
+```text
 /// <summary>
 /// Indicator's constructor. Contains general information: name, description, LineSeries etc. 
 /// </summary>
@@ -51,26 +51,26 @@ public SimpleIndicator()
 
 ### Getting data
 
-The **"OnUpdate"** method will be called each time on history changing - here we need to add our calculations. Most of the indicators are using prices or volumes in their algorithms. Quantower API provides you a few ways to retrieve this data - you can access Open, High, Low, Close and others data from a current bar or from previous bars if it required. 
+The **"OnUpdate"** method will be called each time on history changing - here we need to add our calculations. Most of the indicators are using prices or volumes in their algorithms. Quantower API provides you a few ways to retrieve this data - you can access Open, High, Low, Close and others data from a current bar or from previous bars if it required.
 
 Common method [**GetPrice**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetPrice_TradingPlatform_BusinessLayer_PriceType_System_Int32_) allows to retrieve all type of the data:
 
-```
+```text
 // To get Low price of the current bar
 double low = GetPrice(PriceType.Low);
 // To get Volume price for the fifth bar before the current
-double volume = GetPrice(PriceType.Volume, 5);    
+double volume = GetPrice(PriceType.Volume, 5);
 ```
 
 And a few simplified ways to retrieve the data:
 
-```
+```text
 // To get Close price of the current bar
 double close = Close();
 // To get High price of the current bar
 double high = High();
 // To get Open price for the fifth bar before the current
-double open = Open(5);   
+double open = Open(5);
 ```
 
 You can find more information about "**Indicator"** class in our [API documentation](http://api.quantower.com).
@@ -79,7 +79,7 @@ You can find more information about "**Indicator"** class in our [API documentat
 
 Now we know how to get prices, but as we told before, we need also to put results into indicator buffer. We can use "[**SetValue**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_SetValue_System_Double_System_Int32_System_Int32_)**"** method for this:
 
-```
+```text
 // Put value into current bar for first line of indicator
 SetValue(1.43);
 // Put value into current bar for second line of indicator
@@ -90,7 +90,7 @@ SetValue(1.43, 1, 5);
 
 All this is enough to finish our first indicator. Let's add calculations into "**OnUpdate"** method using standard C\# possibilities. This is our total code:
 
-```
+```text
 /// <summary>
 /// Calculation entry point. This function is called when a price data updates. 
 /// </summary>

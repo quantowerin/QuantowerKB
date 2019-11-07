@@ -6,7 +6,7 @@ description: >-
 
 # History Player
 
-### What is History Player
+## What is History Player
 
 Testing of trading strategies is one of the most important and necessary steps for successful trading. If you are an experienced algotrader, then the automatic testing method is ideal and you can use our Extension for Visual Studio. But unfortunately, many traders don't know the programming language, which makes testing their strategies difficult.
 
@@ -20,7 +20,7 @@ History Player allows you to test on any trading instruments with any vendor or 
 
 {% embed url="https://www.youtube.com/watch?v=za-eE8ZSmV8" caption="How to backtest a trading strategy with History Player" %}
 
-### First launch of the History Player
+## First launch of the History Player
 
 * Start the panel from the main application menu
 * Add a trading instrument for testing
@@ -32,13 +32,13 @@ History Player allows you to test on any trading instruments with any vendor or 
 If you click on the "**Stop"** button, all test progress will be canceled.
 {% endhint %}
 
- When the testing is started you can open all the necessary panels for testing by clicking on the “Open panel” button.
+When the testing is started you can open all the necessary panels for testing by clicking on the “Open panel” button.
 
 ![Open necessary panels to create a workspace for backtesting](../.gitbook/assets/available-panels-in-history-player.png)
 
 In our blog, we showed in detail the process of [manual backtesting of trading strategies using the History Player](https://www.quantower.com/blog/software-for-manual-backtesting-a-brief-review-of-history-player-plugin).
 
-### General and instruments settings
+## General and instruments settings
 
 Before you start testing the strategy, you need to set up an initial trading balance, a simulation \(or modeling\) scheme for downloaded data, a commission size for a trading instrument, and the netting type.
 

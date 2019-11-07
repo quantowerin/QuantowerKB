@@ -1,14 +1,14 @@
 # Excel and RTD function
 
-Start from the version 1.39 Quantower supports RealTimeData \(RTD\) for sending data and other market information to Microsoft Excel®. This feature opens up many opportunities for creating custom displays and other ways to better manage your workflow. 
+Start from the version 1.39 Quantower supports RealTimeData \(RTD\) for sending data and other market information to Microsoft Excel®. This feature opens up many opportunities for creating custom displays and other ways to better manage your workflow.
 
-RTD is a newer protocol that offers several advantages over DDE, including more flexibility and better performance and reliability. 
+RTD is a newer protocol that offers several advantages over DDE, including more flexibility and better performance and reliability.
 
 We prepared the spreadsheet that outlines the basic syntax of RTD formulas with details more complex formulas. Included is a collection of popular RTD formulas, which you can simply copy and paste into your own spreadsheet. [**Download the sample file**](https://updates.quantower.com/misc/RTD/rtd_samples.xlsx)**.**
 
 Here is the General Syntax for getting symbol info via RTD function:
 
-![](../.gitbook/assets/screenshot_128%20%281%29.png)
+![](../.gitbook/assets/screenshot_128-1.png)
 
 ## **How to activate RTD function in Quantower platform**
 
@@ -27,7 +27,7 @@ When retrieving instrument data using RTD, you need to specify the ID of the ins
 
 RTD formula uses the following basic structure:
 
-```
+```text
 =RTD("TradingPlatform";"";"Param1";"Param2";"Param3";....")
 ```
 
@@ -43,19 +43,15 @@ For Windows 7:
 
 * go to **Start &gt; Control Panel &gt; Regional and Language Options**
 * Click on **Formats Tab** **&gt; Additional Settings**
-* for **List Separator** check the argument. ****It must be the same as in RTD settings.
+* for **List Separator** check the argument. _\*\*_It must be the same as in RTD settings.
 
-For Windows 10: 
+For Windows 10:
 
 * go to **Start &gt;type Control Panel  and press enter &gt; Region**
 * click **Additional Settings**
-* for **List Separator** check the argument. ****It must be the same as in RTD settings.
+* for **List Separator** check the argument. _\*\*_It must be the same as in RTD settings.
 
 ![](../.gitbook/assets/regional_settings.png)
 
 ![](../.gitbook/assets/regional2.jpg)
-
-
-
-
 

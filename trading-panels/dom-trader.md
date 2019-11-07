@@ -6,15 +6,15 @@ description: >-
 
 # DOM Trader
 
-### General info
+## General info
 
 The Depth of Market or DOM panel shows the number of buy and sell orders placed at various price levels around the current price for a particular instrument \(most often for futures\). The more the number of orders is at a certain price level, the higher the interest in this level. The trading functionality of the panel allows you to quickly and efficiently place the required number of orders at the selected price, and also drag-and-drop, change or cancel them.
 
 ![General view of DOM Trader panel](../.gitbook/assets/dom-trader-general-view.png)
 
-### Trading with DOM Trader
+## Trading with DOM Trader
 
-DOM Trader allows to send trading orders in two ways  — **Mouse Trading mode** and **Order Entry**
+DOM Trader allows to send trading orders in two ways — **Mouse Trading mode** and **Order Entry**
 
 To place an order via Mouse Trading mode:
 
@@ -35,11 +35,11 @@ To place an order via Order Entry:
 
 ![Creating a new position via Order entry mode in DOM Trading](../.gitbook/assets/dom-order-entry.gif)
 
-### DOM Trader settings
+## DOM Trader settings
 
 Additional settings of the DOM Trader allow you to customize general view for convenient display of data and the panel in general.
 
-#### View settings
+### View settings
 
 ![General settings of DOM Trader](../.gitbook/assets/dom-settings.png)
 
@@ -53,13 +53,11 @@ Additional settings of the DOM Trader allow you to customize general view for co
 * **Show toolbar.**  This option shows/hides the top toolbar with the trading symbol and expands the "useful" area of the panel. It is recommended to use this option with the symbol link.
 * **Show Level 1 bar.** Shows/hides the header pane, which contains Level 1 market data for the selected instrument.
 
-#### Position Bar settings
+### Position Bar settings
 
-At the bottom of the DOM Trader is the Position Bar, which displays a brief info about an open position on the current trading instrument  — the number of contracts, the average open price, current profit and loss.
+At the bottom of the DOM Trader is the Position Bar, which displays a brief info about an open position on the current trading instrument — the number of contracts, the average open price, current profit and loss.
 
 ![Position Bar in DOM trading](../.gitbook/assets/dom-position-bar1.png)
 
 ![Settings of position bar in DOM Trader panel](../.gitbook/assets/dom-position-bar.png)
-
-
 

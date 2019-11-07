@@ -8,7 +8,7 @@ To open new TPO panel, go to _**Main menu**_ \(Logo icon\) and select _**TPO Cha
 
 ![Open TPO Chart panel via Main menu](../.gitbook/assets/tpo_start.png)
 
-### Key Elements of TPO Profile Chart
+## Key Elements of TPO Profile Chart
 
 **Point of Control \(POC\)** — price level of the greatest market activity or trading volume. At this level, the price spent most time over the profile range.
 

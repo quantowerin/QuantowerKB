@@ -8,15 +8,15 @@ description: >-
 
 **Order Flow Analysis** is a trading method that allows you to predict the actions of large market participants, as well as their intentions regarding the future price.
 
-{% embed url="https://www.youtube.com/watch?v=fOLY\_lwYOB0" %}
+{% embed url="https://www.youtube.com/watch?v=fOLY\_lwYOB0" caption="" %}
 
 Using the **Order Flow Surface** panel, a trader sees all changes of limit orders in the Order Book \(depending on the depth of market data\), which is presented as a Heatmap. The panel shows the placement of limit orders, their changing, canceling or execution by large market participants, as well as the imbalance between buyers and sellers.
 
 Unlike other types of charts, such as Footprint \(or Cluster chart\), the Order Flow shows not only aggressive market orders but also limit orders, which have a greater influence on the price behavior.
 
-![Order Flow Surface shows the evolution of allresting orders in the Limit Book](../.gitbook/assets/order-flow%20%281%29.png)
+![Order Flow Surface shows the evolution of allresting orders in the Limit Book](../.gitbook/assets/order-flow-1%20%281%29.png)
 
-### **How To Interpret The Order Flow Chart**
+## **How To Interpret The Order Flow Chart**
 
 Price changes due to matching between limit and market orders:
 
@@ -37,19 +37,19 @@ The main advantage of **Heatmap visualization** over the classic DOM view is tha
 
 Heatmap also shows the dynamics \(increase or decrease in volume\) of limit orders at certain price levels. Thanks to the gradient color scheme, the trader sees the zones of high interest, which are shown in bright color. The levels with the minimum number of orders have dull colors. This allows you to visually assess the strong support and resistance levels, as well as to understand the reasons for the rapid price changes.
 
-### Order Flow and Volume Analysis Tools
+## Order Flow and Volume Analysis Tools
 
 In addition to visualizing the flow of limit orders, there are Volumetric Analysis Tools, which show the distribution of trade volume, delta and other data for a selected period of time.
 
 More information about each tool can be found in our documentation in the Analytical Panels — Chart — [Volume Analysis Tools](chart/volume-analysis-tools/) section.
 
-### General Settings
+## General Settings
 
 In the panel's general settings there are a number of settings that are identical in other panels, but some are specific to Order Flow.
 
 ![](../.gitbook/assets/general-settings-of-order-flow.png)
 
-**Aggregation mode**  — allows you to adjust the brightness of levels depending on the specified volume value. There are two modes: _**Auto, Custom**_.
+**Aggregation mode** — allows you to adjust the brightness of levels depending on the specified volume value. There are two modes: _**Auto, Custom**_.
 
 For example, let's set the value to 20. All levels where the volume is equal to or exceeds this value will have the brightest color. All levels with the volume less than the set value will have a less vivid coloring proportional to the volume on them.
 

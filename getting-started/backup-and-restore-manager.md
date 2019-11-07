@@ -47,5 +47,3 @@ Once you select the required backup file and press the **\[ START RECOVERY \]** 
 In case of any problems with the backup file, B&R manager will keep your current Quantower settings and inform you about it.
 {% endhint %}
 
-
-

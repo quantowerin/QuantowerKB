@@ -12,9 +12,9 @@ In order to save your work on workspace customization, we have developed a _**‚Ä
 
 You can _**save any Panel, Group or Bind as a template**_, so its usefulness is very promising.
 
-### How to create the template?
+## How to create the template?
 
-The process of Template creation is as simple as 1-2-3: 
+The process of Template creation is as simple as 1-2-3:
 
 1. Open any panel \(or use Group / Bind\)
 2. Customize it according your needs
@@ -31,6 +31,4 @@ If you want to **edit** the template name or **delete** it from your terminal ‚Ä
 {% hint style="success" %}
 You can **share your templates** with other Quantower traders by sharing the template files with them. Template files can be found in ‚ÄúQuantower -&gt; Settings -&gt; Templates‚Äù folder.
 {% endhint %}
-
-
 

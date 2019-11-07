@@ -8,7 +8,7 @@ description: >-
 
 ## General
 
-During development of your own indicators or strategy, you may require using some standard indicators, for example Moving Averages. You don't need to write any code for this, as Quantower trading platform provides you a wide set of predefined indicators. At the moment there are about 50 built-in indicators, among them: 
+During development of your own indicators or strategy, you may require using some standard indicators, for example Moving Averages. You don't need to write any code for this, as Quantower trading platform provides you a wide set of predefined indicators. At the moment there are about 50 built-in indicators, among them:
 
 * EMA
 * ADX
@@ -23,7 +23,7 @@ During development of your own indicators or strategy, you may require using som
 
 You can access built-in indicators using **Core.Indicators.BuiltIn** class. A good place to initiate such indicators is in an **OnInit** method of your script:
 
-```
+```text
 Indicator AC;
 
 protected override void OnInit()
@@ -35,7 +35,7 @@ protected override void OnInit()
 
 An indicator can provide some parameters and you can specify them during creation:
 
-```
+```text
 Indicator EMA;
 
 protected override void OnInit()
@@ -49,7 +49,7 @@ protected override void OnInit()
 
 You can create a few copies of one indicator or a few different indicators if needed:
 
-```
+```text
 Indicator fastEMA;
 Indicator slowEMA;
 
@@ -63,14 +63,14 @@ protected override void OnInit()
 
 Now we need to assign the created indicator to our current script — which means it will use symbol and quotes from its parent. You can do this via **AddIndicator** method:
 
-```
+```text
 Indicator EMA;
 
 protected override void OnInit()
 {
     // Create EMA indicator
     EMA = Core.Indicators.BuiltIn.EMA(10, PriceType.Open);
-             
+
     // Add created EMA indicator as a child to our script
     AddIndicator(EMA);
 }
@@ -78,7 +78,7 @@ protected override void OnInit()
 
 Everything is ready to use this indicator in our calculations. After receiving new quotes it will be calculated automatically. You can access its values via [**GetValue** ](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetValue_System_Int32_System_Int32_TradingPlatform_BusinessLayer_SeekOriginHistory_)method:
 
-```
+```text
 /// <summary>
 /// Calculation entry point. This function is called when a price data updates. 
 /// </summary>
@@ -86,15 +86,15 @@ protected override void OnUpdate(UpdateArgs args)
 {
      // Get EMA value for current bar from first line
      double valueFromEMA = EMA.GetValue();
-     
+
      // Using EMA value in parent indicator
      SetValue(valueFromEMA);            
 }
 ```
 
-In case you need to access value for previous bars or value from other indicators line you can use the offset and a **lineIndex** parameter of a [**GetValue**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetValue_System_Int32_System_Int32_TradingPlatform_BusinessLayer_SeekOriginHistory_) ****method:
+In case you need to access value for previous bars or value from other indicators line you can use the offset and a **lineIndex** parameter of a [**GetValue**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetValue_System_Int32_System_Int32_TradingPlatform_BusinessLayer_SeekOriginHistory_) _\*\*_method:
 
-```
+```text
 /// <summary>
 /// Calculation entry point. This function is called when a price data updates. 
 /// </summary>
@@ -102,7 +102,7 @@ protected override void OnUpdate(UpdateArgs args)
 {
      // Get EMA value for current bar from second line
      double valueFromEMA = EMA.GetValue(5, 1);
-     
+
      // Using EMA value in parent indicator
      SetValue(valueFromEMA);            
 }
@@ -110,14 +110,14 @@ protected override void OnUpdate(UpdateArgs args)
 
 This is a total source code of our example. We use two EMA indicators with different period and display their difference on the chart:
 
-```
+```text
 using System.Drawing;
 using TradingPlatform.BusinessLayer;
 
 
 namespace IndicatorWithBuiltIn
 {   
-	public class IndicatorWithBuiltIn : Indicator
+    public class IndicatorWithBuiltIn : Indicator
     {
         /// <summary>
         /// Built in indicators
@@ -169,7 +169,6 @@ namespace IndicatorWithBuiltIn
         }
     }
 }
-
 ```
 
 And a result of this indicator on the chart:

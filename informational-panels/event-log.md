@@ -2,7 +2,7 @@
 
 Event Log panel displays detail information about all events that occurred during working with the trading platform. Event Log panel is related to Informational group of Control Center sidebar.
 
-![The common look of Event Log panel](../.gitbook/assets/eventlog%20%281%29.png)
+![The common look of Event Log panel](../.gitbook/assets/eventlog-1%20%281%29.png)
 
 ## Available columns
 
@@ -26,8 +26,6 @@ By right-clicking on each row of Event Log panel, you will get a context menu wi
 | **Columns visibility** | Allows to toggle the columns visibility |
 
 {% hint style="info" %}
-"Clear table" action removes only data from current table, but not files from your drive. All history logs are still available - you can refill table via "Range selector" on panel tool bar. 
+"Clear table" action removes only data from current table, but not files from your drive. All history logs are still available - you can refill table via "Range selector" on panel tool bar.
 {% endhint %}
-
-
 

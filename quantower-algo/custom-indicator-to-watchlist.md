@@ -6,16 +6,16 @@ description: >-
 
 # Adding a custom indicator to Watchlist
 
-### **How to make an indicator compatible with 'Watchlist’**
+## **How to make an indicator compatible with 'Watchlist’**
 
 Ok, let’s imagine, you have created a custom indicator and it works correctly when you add it to the ‘Chart’. But you want to add it to the ‘Watchlist’ panel too. Yes, Quantower supports this [**feature**](https://help.quantower.com/analytics-panels/watchlist#indicators). Open ‘Watchlist’ -&gt; click on ‘Indicators lookup’ -&gt; and… you can’t find it. Hmm, something is wrong. And two questions come up: _“Why I can’t see it on the list?”_ and _“How can I add my indicator to the list?”_.
 
 Well, the reason is that your indicator doesn’t implement special **"IWatchlistIndicator"** interface. This is the marker which is used for filtering content into ‘Indicators lookup’ in ‘Watchlist’.
 
-```
+```text
 public class Best_Indicator : Indicator, IWatchlistIndicator
     {
-    	… Best_Indicator code.
+        … Best_Indicator code.
     }
 ```
 
@@ -27,7 +27,7 @@ Ok, let’s remember. Before adding the indicator to the chart you need to selec
 
 **‘IWatchlistIndicator’** interface provides ‘_**MinHistoryDepths**_’ property which must return a minimal history depths value for the current indicator. You need to implement it correctly and that’s all.
 
-```
+```text
 public class DoubleSMA: Indicator, IWatchlistIndicator
     {
         [InputParameter("First SMA period", 0, 1, 999, 1, 1)]

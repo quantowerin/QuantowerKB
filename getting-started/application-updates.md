@@ -30,5 +30,3 @@ The rollback function allows you to go back one version after updating the platf
 
 ![Rollback to previous Quantower version](../.gitbook/assets/rollbackto-previous-version.png)
 
-
-

@@ -6,7 +6,7 @@ description: >-
 
 # General settings
 
-General settings — is a screen, where you can set up the most common behavior of the whole Quantower application. It is logically grouped into several tabs: 
+General settings — is a screen, where you can set up the most common behavior of the whole Quantower application. It is logically grouped into several tabs:
 
 * [**General**](general-settings.md#general)\*\*\*\*
 * \*\*\*\*[**Control Center**](general-settings.md#control-center)\*\*\*\*
@@ -27,7 +27,7 @@ General settings are backed up automatically every 5 minutes by default and you 
 
 | **Theme** | List | Сhoose one of the 6 color schemes that suits you best |
 | :--- | :--- | :--- |
-| **Language \(beta\)** | List | Quantower supports 15 languages. In case of errors or inaccuracies in translation, any user can make changes to the text. Read the manual [how to make changes in selected language](https://help.quantower.com/customization/localization).  |
+| **Language \(beta\)** | List | Quantower supports 15 languages. In case of errors or inaccuracies in translation, any user can make changes to the text. Read the manual [how to make changes in selected language](https://help.quantower.com/customization/localization). |
 | **Autosave settings \(every 5 minutes\)** | true | Quantower will save your application settings in "Settings" folder and overwrite them every 5 minutes while the application is active. It also saves on application close |
 | **Display quantity in lots** | true |  |
 | **Abbreviate volume & ticks** | true |  |
@@ -40,7 +40,7 @@ Control center is the starting point of all terminal, used as a launcher and inf
 
 ## Sounds
 
-![Sounds management](../.gitbook/assets/sounds%20%281%29.png)
+![Sounds management](../.gitbook/assets/sounds-1.png)
 
 Sounds are a good way of additional interaction with user allowing to inform about some activities even you don’t currently in front of your PC. Sounds can be enabled or disabled per certain action.
 
@@ -48,7 +48,7 @@ Sounds are a good way of additional interaction with user allowing to inform abo
 | :--- | :--- | :--- |
 
 
-The group of actions in Quantower, when the sound should be played consists of the most vital situations in application usage. This list is not final and can be extended or changed later. Each option has a set of controls: 
+The group of actions in Quantower, when the sound should be played consists of the most vital situations in application usage. This list is not final and can be extended or changed later. Each option has a set of controls:
 
 * enable/disable checkbox
 * action name

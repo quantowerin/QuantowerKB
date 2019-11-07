@@ -10,7 +10,7 @@ description: System requirements and 3 simple steps to successfully install the 
 
 Once you downloaded Quantower application from Quantower official website — you are ready to start an installation process. From this point we must clarify the main differences between Quantower "installation process" and default Windows® install process, that most users are accustomed to.
 
-{% embed url="https://youtu.be/PxP-BhDs-J4" %}
+{% embed url="https://youtu.be/PxP-BhDs-J4" caption="" %}
 
 {% hint style="success" %}
 Quantower does not copy it's files to the system folders \(AppData or Program Files\) of the OS, nor does write changes to the system registry
@@ -20,7 +20,7 @@ What does it mean? The program doesn't violate the integrity of the OS, and in c
 
 This approach allows you to store \(and launch\) the Quantower on removable drive for use on any other computer as the portable application. It can be convenient when you need to move Quantower with all of its settings to another PC; just copy Quantower folder and paste where you need.
 
-### PC requirements
+## PC requirements
 
 {% hint style="info" %}
 * Windows 7, 10
@@ -29,11 +29,11 @@ This approach allows you to store \(and launch\) the Quantower on removable driv
 {% endhint %}
 
 {% hint style="warning" %}
-Microsoft has officially stopped supporting Windows 8. Therefore, when you purchase a license, you will not be able to log in to the application under your account. In the free version, all available functionality of the platform will work properly.   
+Microsoft has officially stopped supporting Windows 8. Therefore, when you purchase a license, you will not be able to log in to the application under your account. In the free version, all available functionality of the platform will work properly.  
 We recommend updating Windows to version 10.
 {% endhint %}
 
-### Installation steps
+## Installation steps
 
 ![Quantower installer screen](../.gitbook/assets/extract-files-quantower.png)
 
@@ -47,7 +47,7 @@ Please note, that you may need to allow an in-going and outgoing connection for 
 
 ![](../.gitbook/assets/default-workspace.png)
 
-### Uninstall
+## Uninstall
 
 If you need to uninstall the application, just _**delete the folder with all application files**_. You may also keep your personal settings \(connection information & workspaces\) by copying the Settings folder \(can be found right in Quantower folder\) before application delete. These Settings folder can be pasted to any other Quantower folder later.
 

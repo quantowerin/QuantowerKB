@@ -10,7 +10,7 @@ Quantower offers a variety of chart types to help you display chart data in diff
 
 ![Switch between different time frames in one click](../../../.gitbook/assets/chart-time-selector.png)
 
-### Chart types and styles
+## Chart types and styles
 
 Quantower provides **9 chart types**:
 
@@ -35,5 +35,5 @@ Charts can also be represented in **6 different styles**:
 * Area
 * Quantower
 
-![Chart styles in Quantower &#x2014; Candle, Bar, Line, Dotted Line, Area, Quantower style](../../../.gitbook/assets/chart-styles%20%281%29.png)
+![Chart styles in Quantower &#x2014; Candle, Bar, Line, Dotted Line, Area, Quantower style](../../../.gitbook/assets/chart-styles-1.png)
 

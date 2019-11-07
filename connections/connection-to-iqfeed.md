@@ -9,7 +9,7 @@ description: >-
 
 You can benefit from market data provided by IQFeed while trading on Quantower platform. All you need to create IQFeed account and to connect it to Quantower. Having registered with IQFeed, a Free Trial Demo Account is automatically opened and you can use it during the determined trial time period for free. After the trial period expires, you will be offered to proceed with real account.
 
-### How to connect IQFeed to Quantower
+## How to connect IQFeed to Quantower
 
 * Create a [**demo account**](https://www.iqfeed.net/index.cfm?displayaction=start) on the IQFeed official website. If you already have an account, skip this step.
 * Download and install the latest version of [**IQFeed client**](http://www.iqfeed.net/index.cfm?displayaction=support&section=download) on your PC.
@@ -17,7 +17,7 @@ You can benefit from market data provided by IQFeed while trading on Quantower p
 
 ![Enter your credintials for conneting to IQFeed](../.gitbook/assets/iqfeed-connection.png)
 
-### How to register and open demo account with IQFeed?
+## How to register and open demo account with IQFeed?
 
 It may seem some confused issue for newbies to open demo account with IQFeed data provider. Nevertheless it becomes considerably easier when doing that with the usage of our instructions!
 
@@ -31,7 +31,7 @@ It may seem some confused issue for newbies to open demo account with IQFeed dat
 
 * Select your country and proceed.
 
-![](../.gitbook/assets/screenshot_20%20%281%29.png)
+![](../.gitbook/assets/screenshot_20-1.png)
 
 * Select the data you are willing to be provided with by IQFeed.
 

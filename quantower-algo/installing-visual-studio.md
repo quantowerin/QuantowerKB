@@ -6,7 +6,7 @@ description: >-
 
 # Install for Visual Studio
 
-**Visual Studio** - is an integrated development environment \(IDE\) from Microsoft, which includes a code editor with IntelliSense, debugger, supporting for source control systems and many other professional features. The currently supported Visual Studio version is 2017. 
+**Visual Studio** - is an integrated development environment \(IDE\) from Microsoft, which includes a code editor with IntelliSense, debugger, supporting for source control systems and many other professional features. The currently supported Visual Studio version is 2017.
 
 {% hint style="success" %}
 We recommend you to use the most basic version of **Visual Studio — the Community edition**, which is available free of charge.
@@ -30,7 +30,7 @@ Click "**Download**". Visual Studio will ask you for restarting to finish the ex
 
 To check whether Quantower Algo is installed successfully click "_**File -&gt; New -&gt; Project**_" menu item and you will see special project types: Indicator and Strategy:
 
-![](../.gitbook/assets/new-project%20%281%29.png)
+![](../.gitbook/assets/new-project-1%20%281%29.png)
 
 Now everything is ready to [create your first indicator](simple-indicator.md).
 

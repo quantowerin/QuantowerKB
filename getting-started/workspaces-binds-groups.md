@@ -8,16 +8,22 @@ description: >-
 
 We have divided the Workspaces organisation hierarchy into four basic layers \(in terms of its scales\):
 
-* \*\*\*\*[**Standalone panels**  ](workspaces-binds-groups.md#panels)\*\*\*\*
-* \*\*\*\*[**Groups**  ](workspaces-binds-groups.md#groups)\*\*\*\*
-* \*\*\*\*[**Binds**](workspaces-binds-groups.md#binds)  ****
+* \*\*\*\*\[**Standalone panels**
+
+  \]\(workspaces-binds-groups.md\#panels\)\*\*\*\*
+
+* \*\*\*\*\[**Groups**
+
+  \]\(workspaces-binds-groups.md\#groups\)\*\*\*\*
+
+* \*\*\*\*[**Binds**](workspaces-binds-groups.md#binds)
 * \*\*\*\*[**Workspaces**](workspaces-binds-groups.md#workspaces)\*\*\*\*
 
 ![General scheme of organisation layers](../.gitbook/assets/group_bind_workspace.png)
 
 Each layer plays its role in process of Workspace contents organization and we sure that once you get used to our process, you will find it convenient, flexible and able to accomplish any of your ideas.
 
-### Panels
+## Panels
 
 Standalone panels are the minor elements of any Workspace and they behave just like any usual PC window:
 
@@ -26,7 +32,7 @@ Standalone panels are the minor elements of any Workspace and they behave just l
 * can stick its size to repeat the dimensions of other panels, while resizing;
 * can be collapsed to the OS taskbar as usual windows
 
-### Panel's context menu
+## Panel's context menu
 
 Each panel has its own **context menu**, situated on the left upper corner, right before the Panel’s title.
 
@@ -44,9 +50,9 @@ This menu usually consists of following functions:
 
 {% embed url="https://www.youtube.com/watch?v=JwFp0COSuuA" caption="Panels linking" %}
 
-### Groups
+## Groups
 
-The simplest level of combining several panels together is a group. This layer allows to arrange several panels as nested tabs and then move the created group as one panel. 
+The simplest level of combining several panels together is a group. This layer allows to arrange several panels as nested tabs and then move the created group as one panel.
 
 To group two panels just click and drag one Panel’s header over another. To ungroup panels just drag an active Panel’s tab out of group tabs bar.
 
@@ -58,11 +64,11 @@ Panels can also be reordered within group tabs as well as closed being grouped. 
 Grouping is very useful for saving space and putting together several common panels.
 {% endhint %}
 
-### Binds
+## Binds
 
 The most innovative and, we are sure, a useful layer of panels organization — is Binds \(binding\). It was developed to allow a user to create its own “Super-panels” — the sets of basic panels that should be stuck together. Generally, Binds allows to create any combination of panels in any required way; the only limit is your fantasy.
 
-Creation of Binds is an easy process: 
+Creation of Binds is an easy process:
 
 1. place several panels on your workspace close to each other;
 2. focus on one of the panels;
@@ -85,19 +91,17 @@ In order to edit the contents of the Bind, you should unbind it using its contex
 Please notice that not all elements of Quantower can be binded. This feature doesn’t allow to combine screens \(like Connections manager, settings\) and some non-standard panels: Order entry, FXCell. This restriction was made because of impossibility to resize the Screens while binds should contain only the resizable items.
 {% endhint %}
 
-### Workspaces
+## Workspaces
 
-The highest level of trading area organization — is a Workspace. This is the most general grouping layer that you may even don’t need most of the time. Binds and single panels are already enough for most use cases, but if you prefer to have a logically-separated environment \(like “Trading - Analysis - News” or “Grains - Bonds - Metals” etc.\) — Workspaces are your solution. 
+The highest level of trading area organization — is a Workspace. This is the most general grouping layer that you may even don’t need most of the time. Binds and single panels are already enough for most use cases, but if you prefer to have a logically-separated environment \(like “Trading - Analysis - News” or “Grains - Bonds - Metals” etc.\) — Workspaces are your solution.
 
 Because of its nature \(the global grouping tool\), Workspaces manager is situated on Control center panel and can be invoked by clicking the corresponding button. [More about creating, managing and switching the workspaces](control-center.md#workspaces-manager) can be found in Control center section.
 
-As a top-level grouping layer, Workspaces store all their contents in special local files. These files can be found in _**Quantower -&gt; Settings -&gt; Workspaces**_ folder. Each file represents some workspace; both have the similar names. Technically, the workspace file is an XML-document containing all of the settings of all panels that are in the workspace. 
+As a top-level grouping layer, Workspaces store all their contents in special local files. These files can be found in _**Quantower -&gt; Settings -&gt; Workspaces**_ folder. Each file represents some workspace; both have the similar names. Technically, the workspace file is an XML-document containing all of the settings of all panels that are in the workspace.
 
 {% embed url="https://www.youtube.com/watch?v=A\_2gJdeP-08&t=20s" caption="How to create and save your custom workspace" %}
 
 {% hint style="success" %}
 Quantower auto-saves each workspace into its local file every 5 mins, in order to keep them safe.
 {% endhint %}
-
-
 

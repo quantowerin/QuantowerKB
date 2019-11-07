@@ -12,23 +12,23 @@ In this topic, we will show you how to use a really great possibility of scripts
 
 Let's start. To get access to Graphics object of the chart you need to override **OnPaint** method and use **Hdc** value from its parameters:
 
-```
+```text
 public override void OnPaintChart(PaintChartEventArgs args)
 {
     // Use args.Hdc to create Graphics which give us acces to chart canvas
     Graphics gr = Graphics.FromHdc(args.Hdc);                        
-    
+
     // Add your custom drawings here...
 }
 ```
 
 That's all - now you have full access to chart's canvas and can draw anything you want. For drawing in C\# you need to call special methods with graphical parameters: coordinates, color, width, etc.:
 
-```
+```text
 public override void OnPaintChart(PaintChartEventArgs args)
 {
     Graphics gr = Graphics.FromHdc(args.Hdc);
-            
+
     // Draw a line using predefined Red pen
     gr.DrawLine(Pens.Red, 100,100,200,200);
 
@@ -52,7 +52,7 @@ If we build this indicator - we can see the result on the chart window:
 
 Let's try to draw a text — it is very similar. We need to specify text, font, and coordinates:
 
-```
+```text
 public override void OnPaintChart(PaintChartEventArgs args)
 {
     Graphics gr = Graphics.FromHdc(args.Hdc);
@@ -70,13 +70,13 @@ Build this and check your chart:
 
 Ok, it is interesting but quite useless. Let's do something more serious — for example, display all levels of market depth on the chart. This is source code:
 
-```
+```text
 protected override void OnInit()
 {
     // Subscribe for level 2 quotes            
     this.Symbol.Subscribe(SubscribeQuoteType.Level2);
 }
-        
+
 public override void OnPaintChart(PaintChartEventArgs args)
 {
     Graphics gr = Graphics.FromHdc(args.Hdc);
@@ -104,6 +104,5 @@ And this is how our chart looks now. You can compare results with Market Depth p
 
 ![Display bids and asks on the chart](../.gitbook/assets/level2.png)
 
-It is a great possibility of chart features extending, isn't it? You can add your own Info Window, Track Cursor or even Volume Analysis visualization. There are no limitations in our API, only your fantasy.  
-
+It is a great possibility of chart features extending, isn't it? You can add your own Info Window, Track Cursor or even Volume Analysis visualization. There are no limitations in our API, only your fantasy.
 

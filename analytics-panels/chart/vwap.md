@@ -14,9 +14,11 @@ The indicator is calculated for any period of time according to the following al
 
 * the average price \(AP\) is calculated for each bar or candle. The calculation is made for each price change for the current candle.  AP = \(H+L+C\)/3
 * the average price is multiplied by the volume that has passed in the current candlestick or bar. For example, in real time new trade will increase the volume and thus weigh the price. Thus, for each price or volume change we will get value AP \* V.
-* the above values are summed up and divided by the total volume for the specified period. 
+* the above values are summed up and divided by the total volume for the specified period.
 
-                            **VWAP = \(Sum of Average Price \* Traded Volume\) / Cumulative Volume**
+  ```text
+                        **VWAP = \(Sum of Average Price \* Traded Volume\) / Cumulative Volume**
+  ```
 
 ## **How to add VWAP to the chart?**
 
@@ -48,7 +50,7 @@ VWAP has numerous application in the trading world. It is helpful for both insti
 * VWAP serves as a reference point for prices for one day. As such, it is best suited for intraday analysis**.** Chartists can compare current prices with the VWAP values to determine the intraday trend.
 * VWAP indicator can be used as a dynamic support/resistance line during sideways market.
 
-For intraday trading we have found that it is possible to trade the return of the price to VWAP on small timeframes. For example, let's consider ES \(e-mini S&P500\) futures on 5-minute chart with an hourly VWAP. 
+For intraday trading we have found that it is possible to trade the return of the price to VWAP on small timeframes. For example, let's consider ES \(e-mini S&P500\) futures on 5-minute chart with an hourly VWAP.
 
 ![Trading with VWAP in Quantower platform](../../.gitbook/assets/vwap-trading.png)
 

@@ -9,26 +9,26 @@ description: >-
 
 Quantower trading platform provides [**Volume analysis tools**](https://www.quantower.com/volumeanalysistools), an advanced analytical functionality, which allows you to see the traded volume at each price level, assess the balance between buyers and sellers and understand the intentions of traders regarding the future price.
 
-{% embed url="https://youtu.be/duOmadSFN4Y" %}
+{% embed url="https://youtu.be/duOmadSFN4Y" caption="" %}
 
 Volume analysis tools include proprietary and well-known analytics, which we’ll explore in the further articles:
 
 * \*\*\*\*[**Cluster chart**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/cluster-chart) \(or Footprint chart\)
 * [**Set of volume profiles**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/volume-profiles) — Step, Right, Left and Custom volume profiles
 * [**Time Statistics**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-statistics) \(known as Bar Statistics\) — in table form
-* [**Time Histogram**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-histogram) ****— in form of vertical histogram
+* [**Time Histogram**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-histogram) _\*\*_— in form of vertical histogram
 * [**Historical Time & Sales**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales)\*\*\*\*
 
- The screenshot below shows how you can activate the toolbar of volume analysis tools:
+  The screenshot below shows how you can activate the toolbar of volume analysis tools:
 
 ![](../../../.gitbook/assets/volume-analysis-tools.png)
 
 {% hint style="info" %}
-**Green color** indicates that seleced volume analysis tool has entirely downloaded the data.   
+**Green color** indicates that seleced volume analysis tool has entirely downloaded the data.  
 **Yellow color** indicates that selected tool is dowloading the data.
 {% endhint %}
 
-### Data types of Volume Analysis Tools
+## Data types of Volume Analysis Tools
 
 All volume analysis tools have the same **Data Types**, which can be specified in the settings:
 

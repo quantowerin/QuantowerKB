@@ -6,19 +6,19 @@ description: >-
 
 # Connections manager
 
-Connections are integrations with third-party providers that supply various data: trading quotes, symbols history etc. 
+Connections are integrations with third-party providers that supply various data: trading quotes, symbols history etc.
 
 ![Launch the Connections Manager to select necessary connection](../.gitbook/assets/connections-manager.png)
 
 {% hint style="success" %}
-Each integration is developed and tested by Quantower specialists and guarantees the stability and security of all transferred information. 
+Each integration is developed and tested by Quantower specialists and guarantees the stability and security of all transferred information.
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=7Sp2e\_N-U0E" caption="How to use Connections manager" %}
 
 ## General information
 
-**Connections manager** — is a screen that allows you to select from available integrations the ones you are trading with and connect to them using your accounts. While connecting to any integration, Connections manager remembers your login credentials and will use them for further auto-connects \(reconnects in case of errors\). If you don’t want to store your login credentials in manager, just click the “Lock” icon in the login form. 
+**Connections manager** — is a screen that allows you to select from available integrations the ones you are trading with and connect to them using your accounts. While connecting to any integration, Connections manager remembers your login credentials and will use them for further auto-connects \(reconnects in case of errors\). If you don’t want to store your login credentials in manager, just click the “Lock” icon in the login form.
 
 ![Connections manager screen with multiple accounts](../.gitbook/assets/multiple-accounts.gif)
 
@@ -35,6 +35,4 @@ Once connected, info column will contain the data about ping and current connect
 {% hint style="info" %}
 Quantower supports multiple connections simultaneously, but this function available for Premium License only
 {% endhint %}
-
-
 

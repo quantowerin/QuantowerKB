@@ -10,5 +10,3 @@ The set of parameters diversify depending on particular account \(Connection\) a
 You can hide the toolbar containing "Account lookup" field \(via Settings\) in case you have only one connection in order to save some space.
 {% endhint %}
 
-
-
