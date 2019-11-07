@@ -17,7 +17,7 @@ During the first start of Quantower terminal you will get several elements of th
 
 ![Default Workspace with merged panels in Bind](../.gitbook/assets/default-workspace%20%281%29.png)
 
-From this point, you can start using Quantower. Customize the workspace, open new panels. For sending trading orders you need to swith to other trading connection like [OANDA](../connections/connection-to-oanda.md), [Interactive Brokers](../connections/connect-quantower-to-interactive-broker.md).
+From this point, you can start using Quantower. Customize the workspace, open new panels. For sending trading orders you need to swith to other trading connection like [OANDA](), [Interactive Brokers]().
 
 ## Quantower Free version
 
