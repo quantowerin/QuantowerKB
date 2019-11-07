@@ -21,7 +21,7 @@ Once you start using some paid feature, you will be asked to Login to your Accou
 There are two ways to get yourself an Account:
 
 * proceed to Log in when you have been asked for in Quantower application; 
-* go to [https://accounts.quantower.com](https://accounts.quantower.com) via your favorite browser.
+* go to [https://accounts.quantower.com](https://accounts.quantower.in/) via your favorite browser.
 
 ![Quantower Account Log in form](https://lh5.googleusercontent.com/W4Plz6PIEosVP3gIaprdWE3wDWsKDTZlSCG8fh3a47hM9Mx9jxgq6nmj_x8yI02fa2ykPKfa73g79EOc9Jv7DzP15saDc6S-V4rNA_VCKGCFerll6we2m5M1odzBIJjtlBtTbYmA)
 

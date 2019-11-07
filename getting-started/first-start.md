@@ -13,13 +13,12 @@ During the first start of Quantower terminal you will get several elements of th
 
 * \*\*\*\*[**Workspace**](https://help.quantower.com/getting-started/workspaces-binds-groups#workspaces)
 * **"**[**Bind**](https://help.quantower.com/getting-started/workspaces-binds-groups#binds)**"** with several most popular trading panels
-* An active **connection to Binance with Info Mode**
 
 ![Default Workspace with merged panels in Bind](../.gitbook/assets/default-workspace%20%281%29.png)
 
-From this point, you can start using Quantower. Customize the workspace, open new panels. For sending trading orders you need to swith to other trading connection like [OANDA](), [Interactive Brokers]().
+From this point, you can start using Quantower. Customize the workspace, open new panels. For sending trading orders you need to switch to other trading connection.
 
 ## Quantower Free version
 
-By default, you will be using Quantower platform in free version, where you have a limited functionality. The list of features, that available in FREE version you can find on a [Pricing page of Quantower website](https://www.quantower.com/pricing).
+By default, you will be using Quantower platform in free version, where you have a limited functionality. The list of features, that available in FREE version you can find on a [Pricing page of Quantower website](https://quantower.in/pricing).
 

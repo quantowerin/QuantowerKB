@@ -30,16 +30,6 @@ We offer a user with a Free license, three packages as well as licenses for sepa
 * Order Flow Surface panel
 * Options Analytics is temporary available for free
 
-**Crypto Package** contains the necessary functionality for professional analysis and trading in the cryptocurrency market. For this package are available:
-
-* all connected crypto exchanges, 
-* simultaneous connection to several exchanges, 
-* [volume analysis tools](https://www.quantower.com/volumeanalysistools) — Cluster chart, Volume Profile, Time Statistics, Time Histogram, VWAP
-* Order Flow Surface panel
-* [advanced features](https://www.quantower.com/advancedfeatures) — Renko, Kagi, P&F and Heikin-Ashi chart types, Unlimited Overlays, Unlimited Indicators, Trading Simulator, Chart and Indicator Alerts
-
-**Multi-Asset Package** includes all options that are available in the Crypto Package, plus gives access to Forex, Futures, Stock brokers and other data feeds.
-
 **All-in-One Package** includes all available features and connections. Also, all new features will be automatically added and available while your subscription is active.
 
 \*\*\*\*[**DOM Surface**](https://www.quantower.com/blog/dom-surface-panel-for-deep-order-flow-analysis) license activates full access to the DOM Surface panel. In the free version of the panel, all accumulated data disappears after 3 minutes.
@@ -68,10 +58,6 @@ The purchase process starts with the authorization in the Quantower service. Use
 Purchase cart contains the previously selected License type, term of validity and final Price. You can modify the term of validity to any desired option.
 
 The next step is to select a payment provider and press the **Pay** button.
-
-{% hint style="success" %}
-Also, you can make payments in cryptocurrencies or use direct bank transfers. To do it contact our support team.
-{% endhint %}
 
 ![Order payment for Quantower license](../.gitbook/assets/orderpayment-quantower-google-chrome-2019-05-16-11.24.10.png)
 
